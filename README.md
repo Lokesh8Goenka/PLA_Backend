@@ -51,7 +51,7 @@ CORS Middleware (for frontend-backend communication)
 ## Installation
 
 # Clone the repository
-git clone https://github.com/your-username/pla-backend.git
+git clone https://github.com/Lokesh8Goenka/PLA_Backend.git
 cd pla-backend
 
 # (Optional) Create a virtual environment
