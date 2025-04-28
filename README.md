@@ -1,6 +1,8 @@
-Personalized Learning Assistant (PLA) - Backend
+# Personalized Learning Assistant (PLA) - Backend
 
-FastAPI backend powering a personalized MCQ-based learning platform for adaptive assessments.
+### FastAPI backend powering a personalized MCQ-based learning platform for adaptive assessments.
+
+### ---------------------------------------------------------------
 
 ## Project Overview
 
@@ -12,7 +14,9 @@ Weighted scoring and immediate feedback enhance the learning experience.
 
 Designed for K-12 education, the system helps identify student strengths and areas for improvement.
 
-Features
+### ---------------------------------------------------------------
+
+## Features
 
 Subject → Topic → Sub-topic based MCQ tests
 
@@ -28,7 +32,9 @@ Organized for easy extension (new subjects, topics, MCQs)
 
 Clean separation of logic for scalability
 
-Tech Stack
+### ---------------------------------------------------------------
+
+### Tech Stack
 
 Python 3.10+
 
@@ -40,7 +46,9 @@ Pydantic (for data validation)
 
 CORS Middleware (for frontend-backend communication)
 
-Installation
+### ---------------------------------------------------------------
+
+## Installation
 
 # Clone the repository
 git clone https://github.com/your-username/pla-backend.git
@@ -51,7 +59,9 @@ python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
-# Install dependencies
+### ---------------------------------------------------------------
+
+## Install dependencies
 pip install -r requirements.txt
 
 Running the Server Locally
@@ -66,6 +76,8 @@ http://127.0.0.1:8000
 You can access automatic API docs here:
 
 http://127.0.0.1:8000/docs
+
+### ---------------------------------------------------------------
 
 ## API Endpoints
 
@@ -91,12 +103,24 @@ POST
 
 /submit-answers/ : Submit answers and get next phase/remedials/results
 
+### ---------------------------------------------------------------
+
+## Requirements 
+fastapi
+uvicorn
+requests
+python-multipart
+pydantic
+transformers
+
+### ---------------------------------------------------------------
 
 Author
 
 Lokesh Goenka
 M.Sc. in Data Science & Computing🔬 Focused on AI for Education, Adaptive Testing, and Personalized Learning
 
+### ---------------------------------------------------------------
 License
 
 This project is licensed under the MIT License. Feel free to use, modify, and share! ✨
@@ -112,3 +136,8 @@ Admin panel for adding new content
 Dockerize deployment
 
 Integration with Hugging Face hosted MCQ Generator Model
+
+### ---------------------------------------------------------------
+
+
+
